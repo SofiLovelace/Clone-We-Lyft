@@ -1,19 +1,28 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 .section-pag {
-    height: 400px;
+    height: 100vh;
 }
 
-#section1 {
-    background-color: purple;
+#header {
+    background-image: url(./assets/hero.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.telefono{
+    display: flex;
+    justify-content: right;
+   
 }
 
 #section2 {
-    background-color: blue;
+    background-image: linear-gradient(#76278F, #2B1E66);
 }
 
 #section3 {
@@ -28,6 +37,22 @@
     background-color: purple;
 }
 
-#section6 {
-    background-color: blue;
+footer{
+    color: white;
+    height: 400px;
+    background-color: #333447;
+    }
+    footer ul{
+        padding:0;
+      }
+      footer li{
+        list-style: none;
+      }
+      .wrap-footer{
+        display: grid;
+        grid-template-columns: 30% 15% 15% 20%;
+        column-gap: 5%;
+        padding: 1rem;
+        /* margin: 2rem auto; */
+        max-width: 1200px;
 }
