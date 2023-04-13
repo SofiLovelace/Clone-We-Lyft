@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.section-pag {
+    height: 400px;
+}
+
+#section1 {
+    background-color: purple;
+}
+
+#section2 {
+    background-color: blue;
+}
+
+#section3 {
+    background-color: purple;
+}
+
+#section4 {
+    background-color: blue;
+}
+
+#section5 {
+    background-color: purple;
+}
+
+#section6 {
+    background-color: blue;
+}
